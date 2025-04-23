@@ -2,6 +2,10 @@
 const navbarEl = document.querySelector(".navbar");
 const bottomContainerEl = document.querySelector(".bottom-container");
 
+console.log(navbarEl.offsetHeight);
+
+console.log(bottomContainerEl.offsetTop);
+
 window.addEventListener("scroll", () => {
   if (
     window.scrollY >
